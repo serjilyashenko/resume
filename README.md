@@ -1,3 +1,5 @@
 # Serge Ilyashenko Resume
 
-- Used flex-box
+- flex-box used
+
+**Note:** Work in progress...
