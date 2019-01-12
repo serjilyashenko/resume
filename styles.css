@@ -13,9 +13,10 @@ body {
   display: flex;
 }
 
-.topic {
-  background-color: #373;
-  border: solid 1px black;
+.column {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 10px;
 }
 
 header {
@@ -23,8 +24,33 @@ header {
   color: #fff;
 }
 
-.column {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 1.5em 0;
+.owner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  padding: 1em 0;
+}
+
+.owner__name {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0.25em 0.5em 0 0;
+}
+
+.owner__contacts {
+  font-size: 1em;
+}
+
+.owner__contacts a {
+  color: #fff;
+}
+
+.owner__contacts a:hover {
+  opacity: 0.9;
+}
+
+.topic {
+  background-color: #373;
+  border: solid 1px black;
 }
