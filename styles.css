@@ -61,6 +61,17 @@ header {
 .contact__content {
 }
 
+.topic {
+  padding-top: 1.5em;
+}
+
+.topic__title {
+  font-size: 2em;
+}
+
+.topic__content {
+}
+
 .clip {
   display: inline-block;
   vertical-align: bottom;
