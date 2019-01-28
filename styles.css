@@ -77,16 +77,13 @@ header {
 
 .topic__content {
   padding: 0.75em 0;
+  font-size: 1.2em;
 }
 
 .skills {
   display: flex;
   justify-content: space-around;
   padding: 0 10%;
-}
-
-.skills__column {
-  font-size: 1.2em;
 }
 
 .clip {
@@ -101,7 +98,6 @@ header {
 .with-marker {
   position: relative;
   padding-left: 20px;
-  font-size: 1.2em;
 }
 
 .with-marker::before {
