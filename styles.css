@@ -15,7 +15,7 @@ body {
 
 .column {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 768px;
   padding: 0 10px;
 }
 
@@ -70,6 +70,16 @@ header {
 }
 
 .topic__content {
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.75em 10%;
+}
+
+.skills__column {
+  font-size: 1.2em;
 }
 
 .clip {
