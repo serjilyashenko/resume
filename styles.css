@@ -83,7 +83,38 @@ header {
 .skills {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 0 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+.skills__column {
+  flex-basis: 1;
+  padding-bottom: 15px;
+}
+
+.experience-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.experience-item__company {
+  width: 286px;
+  padding: 0 10px 15px 0;
+}
+
+.experience-item__responsibilities {
+  max-width: 60%;
+  min-width: 380px;
+  padding-bottom: 15px;
 }
 
 .clip {
