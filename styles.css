@@ -6,13 +6,14 @@ li {
   padding: 0;
 }
 
-ul {
-  list-style-type: none;
-}
-
 body {
   font-family: Arial, sans-serif;
   font-size: 1em;
+  padding-bottom: 60px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .flex-wrapper {
@@ -108,13 +109,13 @@ header {
 
 .experience-item__company {
   width: 286px;
-  padding: 0 10px 15px 0;
+  padding: 0 10px 20px 0;
 }
 
 .experience-item__responsibilities {
   max-width: 60%;
   min-width: 380px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .clip {
