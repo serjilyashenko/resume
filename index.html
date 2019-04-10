@@ -8,36 +8,45 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div>
-      <header>
-        <div class="column">
-          <div class="owner">
-            <div class="owner__name">
-              <div>SERGE ILYASHENKO</div>
-              <div class="owner__position">Front-End Developer</div>
+    <div class="page-wrapper">
+      <header class="header">
+        <div class="header__content">
+          <div class="header__left">
+            <div class="header__photo">
+              <img src="photo.jpg" alt="Serge Ilyashenko" />
             </div>
-            <div class="owner__contacts">
-              <div class="contact">
-                <div class="contact__title">mail:</div>
-                serj.ilyashenko@gmail.com
+          </div>
+          <div class="header__center">
+            <div class="owner">
+              <div class="owner__name">
+                Serge Ilyashenko
               </div>
-              <div class="contact">
-                <div class="contact__title">linkedin:</div>
-                <a class="clip" href="https://www.linkedin.com/in/serge-ilyashenko-97395a124/" target="_blank"
-                  >https://www.linkedin.com/in/serge-ilyashenko-97395a124/</a
-                >
+              <div class="owner__position">
+                Front-end Developer
               </div>
-              <div class="contact">
-                <div class="contact__title">twitter:</div>
-                <a href="https://twitter.com/SkySerj" target="_blank">https://twitter.com/SkySerj</a>
+              <div class="owner__contacts">
+                <div class="owner__contact">
+                  <div class="owner__contact-label">mail:</div>
+                  <div>serj.ilyashenko@gmail.com</div>
+                </div>
+                <div class="owner__contact">
+                  <div class="owner__contact-label">linkedin:</div>
+                  <a href="https://www.linkedin.com/in/serge-ilyashenko-97395a124" target="_blank"
+                    >https://www.linkedin.com/in/serge-ilyashenko-97395a124</a
+                  >
+                </div>
+                <div class="owner__contact">
+                  <div class="owner__contact-label">twitter:</div>
+                  <a href="https://twitter.com/SkySerj" target="_blank">https://twitter.com/SkySerj</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </header>
-      <div class="column">
+      <div class="page-content">
         <div class="topic">
-          <div class="topic__title">SUMMARY</div>
+          <div class="topic__title">Summary</div>
           <div class="topic__content">
             Passionate Front-End Developer with 3+ years of experience of creating enterprise SPA applications. Skills
             include analytical thinking and focusing on problem solving. Able to find and apply solution project needs
@@ -46,105 +55,109 @@
           </div>
         </div>
         <div class="topic">
-          <div class="topic__title">KEY SKILLS</div>
+          <div class="topic__title">Key skills</div>
           <div class="topic__content">
             <div class="skills">
               <div class="skills__column">
-                <div><b>Hard Skills</b></div>
-                <div>JavaScript / HTML / CSS</div>
-                <div>React / Redux / MobX / GraphQL</div>
-                <div>Data-Driven Documents (D3)</div>
-                <div>TypeScript</div>
-                <div>Webpack / Gulp</div>
-                <div>Ember</div>
-                <div>KnockoutJs</div>
-                <div>WebSockets</div>
-                <div>Git</div>
+                <div class="skills__title">Hard Skills</div>
+                <ul>
+                  <li>JavaScript / HTML / CSS</li>
+                  <li>React / Redux / MobX / GraphQL</li>
+                  <li>Data-Driven Documents (D3)</li>
+                  <li>TypeScript</li>
+                  <li>Webpack / Gulp</li>
+                  <li>Ember</li>
+                  <li>KnockoutJs</li>
+                  <li>WebSockets</li>
+                  <li>Git</li>
+                </ul>
               </div>
               <div class="skills__column">
-                <div><b>Soft Skills</b></div>
-                <div>Communication</div>
-                <div>Teamwork</div>
-                <div>Curiosity</div>
-                <div>Adaptability</div>
-                <div>Mentoring</div>
-                <div>Interviewing</div>
+                <div class="skills__title">Soft Skills</div>
+                <ul>
+                  <li>Communication</li>
+                  <li>Teamwork</li>
+                  <li>Curiosity</li>
+                  <li>Adaptability</li>
+                  <li>Mentoring</li>
+                  <li>Interviewing</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
         <div class="topic">
-          <div class="topic__title">PRIOR WORK EXPERIENCE</div>
+          <div class="topic__title">Prior work experience</div>
           <div class="topic__content">
-            <div class="experience-item">
-              <div class="experience-item__company">
-                <div><b>ZenSoft</b></div>
-                <div>Front-end Developer</div>
-                <div class="dates">Sep. 2016 - Present</div>
+            <div class="experience">
+              <div class="experience__left">
+                <div class="company">
+                  <div class="company__name">ZenSoft</div>
+                  <div class="company__position">Front-end Developer</div>
+                  <div class="company__dates">Sep. 2016 - Present</div>
+                </div>
               </div>
-              <div class="experience-item__details">
+              <div class="experience__center">
                 <!-- Zensoft projects start -->
-                <div class="project-item">
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title project-item__piece-title_main">
-                      Tracking platform
-                    </div>
+                <div class="project">
+                  <div class="project__title">
+                    Tracking platform
+                  </div>
+                  <div class="project__text">
                     The system allowed to track project's budget, progress and timelines during every sprint. This
                     helped to improve and optimize process of developing.
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Personal achievements:
-                    </div>
+                  <div class="project__subtitle">
+                    Personal achievements:
+                  </div>
+                  <div class="project__text">
                     <ul>
                       <li>
-                        - Proposition and integration of TypeScript technology to the project. This well decreased bug
+                        Proposition and integration of TypeScript technology to the project. This well decreased bug
                         amount on coding stage.
                       </li>
                     </ul>
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Tech stack:
-                    </div>
+                  <div class="project__subtitle">
+                    Tech stack:
+                  </div>
+                  <div class="project__text">
                     TypeScript, React, MobX, Webpack.
                   </div>
                 </div>
-                <div class="project-item">
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title project-item__piece-title_main">
-                      Web Platform form managing media ads
-                    </div>
+                <div class="project">
+                  <div class="project__title">
+                    Web Platform form managing media ads
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Personal achievements:
-                    </div>
+                  <div class="project__subtitle">
+                    Personal achievements:
+                  </div>
+                  <div class="project__text">
                     <ul>
                       <li>
                         - Completed the project in 3 months in terms of a hard deadline.
                       </li>
                     </ul>
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Tech stack:
-                    </div>
+                  <div class="project__subtitle">
+                    Tech stack:
+                  </div>
+                  <div class="project__text">
                     TypeScript, React, Redux, Webpack.
                   </div>
                 </div>
-                <div class="project-item">
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title project-item__piece-title_main">
-                      Blockchain platform
-                    </div>
+                <div class="project">
+                  <div class="project__title">
+                    Blockchain platform
+                  </div>
+                  <div class="project__text">
                     Makes it easy for developers to connect their applications to multiple blockchain networks with no
                     blockchain experience
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Personal achievements:
-                    </div>
+                  <div class="project__subtitle">
+                    Personal achievements:
+                  </div>
+                  <div class="project__text">
                     <ul>
                       <li>
                         - The development of the module for smart contact versioning. This allowed to change smart
@@ -156,24 +169,24 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Tech stack:
-                    </div>
+                  <div class="project__subtitle">
+                    Tech stack:
+                  </div>
+                  <div class="project__text">
                     TypeScript, React, Redux, Webpack, web3 + MetaMask.
                   </div>
                 </div>
-                <div class="project-item">
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title project-item__piece-title_main">
-                      Reference Data Management enterprise system
-                    </div>
+                <div class="project">
+                  <div class="project__title">
+                    Reference Data Management enterprise system
+                  </div>
+                  <div class="project__text">
                     It allowed the customer to avoid overtimes during reporting period.
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Personal achievements:
-                    </div>
+                  <div class="project__subtitle">
+                    Personal achievements:
+                  </div>
+                  <div class="project__text">
                     <ul>
                       <li>
                         - Created a front-end team of 5 people for working on the project
@@ -187,23 +200,21 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Tech stack:
-                    </div>
+                  <div class="project__subtitle">
+                    Tech stack:
+                  </div>
+                  <div class="project__text">
                     EmberJS, WebSockets, Stomp - PubSub protocol.
                   </div>
                 </div>
-                <div class="project-item">
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title project-item__piece-title_main">
-                      Landing Page optimization
-                    </div>
+                <div class="project">
+                  <div class="project__title">
+                    Landing Page optimization
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Personal achievements:
-                    </div>
+                  <div class="project__subtitle">
+                    Personal achievements:
+                  </div>
+                  <div class="project__text">
                     <ul>
                       <li>
                         - Halved the number of server requests from 114 to 70
@@ -216,82 +227,84 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Tech stack:
-                    </div>
+                  <div class="project__subtitle">
+                    Tech stack:
+                  </div>
+                  <div class="project__text">
                     JS, jQuery.
                   </div>
                 </div>
-                <div class="project-item">
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title project-item__piece-title_main">
-                      AI platform
-                    </div>
+                <div class="project">
+                  <div class="project__title">
+                    AI platform
+                  </div>
+                  <div class="project__text">
                     The tool allows to use AI with no data science experience.
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Tech stack:
-                    </div>
+                  <div class="project__subtitle">
+                    Tech stack:
+                  </div>
+                  <div class="project__text">
                     React, Redux, Webpack, GraphQL.
                   </div>
                 </div>
                 <!-- Zensoft projects end -->
               </div>
             </div>
-            <div class="experience-item">
-              <div class="experience-item__company">
-                <div><b>AllVision / Minsk, Belarus</b></div>
 
-                <div>Front-End Developer</div>
-                <div class="dates">Mar. 2012 — Sep. 2016</div>
+            <div class="experience">
+              <div class="experience__left">
+                <div class="company">
+                  <div class="company__name">AllVision / Minsk, Belarus</div>
+                  <div class="company__position">Front-end Developer</div>
+                  <div class="company__dates">Mar. 2012 — Sep. 2016</div>
+                </div>
               </div>
-              <div class="experience-item__details">
-                <div class="project-item">
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title project-item__piece-title_main">
-                      Monitoring and control systems
-                    </div>
+              <div class="experience__center">
+                <div class="project">
+                  <div class="project__title">
+                    Monitoring and control systems
+                  </div>
+                  <div class="project__text">
                     Allows to configure IoT-like systems using smartphone or tablet.
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Personal achievements:
-                    </div>
+                  <div class="project__subtitle">
+                    Personal achievements:
+                  </div>
+                  <div class="project__text">
                     <ul>
                       <li>
                         - Provided support for TCP, http and RS based protocols.
                       </li>
                     </ul>
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Tech stack:
-                    </div>
+                  <div class="project__subtitle">
+                    Tech stack:
+                  </div>
+                  <div class="project__text">
                     JS, jQuery, C, NodeJs.
                   </div>
                 </div>
               </div>
             </div>
-            <div class="experience-item">
-              <div class="experience-item__company">
-                <div><b>ATOMTEX / Minsk, Belarus</b></div>
 
-                <div>Software Tester</div>
-                <div class="dates">Aug. 2011 — Mar. 2012</div>
+            <div class="experience">
+              <div class="experience__left">
+                <div class="company">
+                  <div class="company__name">ATOMTEX / Minsk, Belarus</div>
+                  <div class="company__position">Software Tester</div>
+                  <div class="company__dates">Aug. 2011 — Mar. 2012</div>
+                </div>
               </div>
-              <div class="experience-item__details">
-                <div class="project-item">
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title project-item__piece-title_main">
-                      Monitoring software for radio emission spectrometers
-                    </div>
+              <div class="experience__center">
+                <div class="project">
+                  <div class="project__title">
+                    Monitoring software for radio emission spectrometers
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Personal achievements:
-                    </div>
+                  <div class="project__subtitle">
+                    Personal achievements:
+                  </div>
+                  <div class="project__text">
                     <ul>
                       <li>
                         - On this position like QA tester I really understood how important testing. And now I always
@@ -299,10 +312,10 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="project-item__piece">
-                    <div class="project-item__piece-title">
-                      Tech stack:
-                    </div>
+                  <div class="project__subtitle">
+                    Tech stack:
+                  </div>
+                  <div class="project__text">
                     JS, jQuery, C, NodeJs.
                   </div>
                 </div>
@@ -311,40 +324,49 @@
           </div>
         </div>
         <div class="topic">
-          <div class="topic__title">EDUCATION</div>
+          <div class="topic__title">Education</div>
           <div class="topic__content">
-            <div><b>Belorusian State University</b> Sep. 2007 — Jul. 2012</div>
-            <div>Nuclear Physics and Electronics</div>
-            <div>
-              <div class="project-item">
-                <div class="project-item__piece">
-                  <div class="project-item__piece-title">
+            <div class="experience">
+              <div class="experience__left">
+                <div class="company">
+                  <div class="company__name">Belorusian State University</div>
+                  <div class="company__position">Nuclear Physics and Electronics</div>
+                  <div class="company__dates">Sep. 2007 — Jul. 2012</div>
+                </div>
+              </div>
+              <div class="experience__center">
+                <div class="project">
+                  <div class="project__title">
                     Personal achievements:
                   </div>
-                  <ul>
-                    <li>
-                      - Developed the boot loader for Microchip micro-controllers throw usb interface.
-                    </li>
-                  </ul>
-                </div>
-                <div class="project-item__piece">
-                  <div class="project-item__piece-title">
+                  <div class="project__text">
+                    <ul>
+                      <li>
+                        - Developed the boot loader for Microchip micro-controllers throw usb interface.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="project__subtitle">
                     Tech stack:
                   </div>
-                  HTML/CSS/JS, C++.
+                  <div class="project__text">
+                    HTML/CSS/JS, C++.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="topic">
-          <div class="topic__title">ADDITIONAL EXPERIENCE</div>
+          <div class="topic__title">Additional experience</div>
           <div class="topic__content">
-            <ul>
-              <li><div class="with-marker">medium.com publications</div></li>
-              <li><div class="with-marker">Open Source contribution</div></li>
-              <li><div class="with-marker">Taking part in JS conferences and workshops</div></li>
-            </ul>
+            <div class="additional">
+              <ul>
+                <li>medium.com publications</li>
+                <li>Open Source contribution</li>
+                <li>Taking part in JS conferences and workshops</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

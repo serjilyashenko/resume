@@ -1,97 +1,138 @@
 body,
-h1,
-ul,
-li {
+html {
   margin: 0;
   padding: 0;
 }
 
 body {
-  /* font-family: Arial, sans-serif; */
-  /* font-family: Helvetica, Sans-Serif; */
-  font-family: Garmond, Sans-Serif;
-  font-size: 14px;
-  padding-bottom: 60px;
+  color: #435c6f;
+  font: 14px/1.4 'Helvetica Neue', Helvetica, Verdana, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+a {
+  color: #435c6f;
+}
+
+ol,
 ul {
   list-style-type: none;
 }
 
-.flex-wrapper {
-  display: flex;
+.page-wrapper {
+  position: relative;
 }
 
-.column {
+.page-content {
+  padding: 50px 0 50px;
   margin: 0 auto;
   max-width: 768px;
-  padding: 0 10px;
 }
 
-header {
-  background-color: #00ab3a;
-  color: #fff;
+/* Header */
+.header {
+  background: #f0f2f4;
 }
 
-.owner {
+.header__content {
+  padding: 20px 0 20px;
+  margin: 0 auto;
+  max-width: 768px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  padding: 1em 0;
+}
+
+.header__left {
+  width: 200px;
+}
+
+.header__center {
+  margin-left: 20px;
+}
+
+.header__photo {
+  width: 200px;
+}
+
+.header__photo img {
+  width: 100%;
+}
+
+/* Owner */
+.owner {
+  padding: 10px 0 0;
 }
 
 .owner__name {
-  font-size: 2.5em;
+  margin: 0 0 10px;
+  font-size: 24px;
+  line-height: 1;
   font-weight: bold;
-  padding: 0 0.5em 0 0;
+  text-transform: uppercase;
 }
 
 .owner__position {
-  font-size: 0.5em;
+  margin: 10px 0 10px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
 }
 
 .owner__contacts {
-  font-size: 1em;
+  margin: 20px 0 0;
 }
 
-.owner__contacts a {
-  color: #fff;
+.owner__contact {
+  margin: 0 0 5px;
+  display: flex;
 }
 
-.owner__contacts a:hover {
-  opacity: 0.9;
+.owner__contact:last-child {
+  margin-bottom: 0;
 }
 
-.contact {
+.owner__contact-label {
+  width: 80px;
 }
 
-.contact__title {
-  display: inline-block;
-  width: 61px;
-}
-
-.contact__content {
-}
-
+/* Topic */
 .topic {
-  padding-top: 1.5em;
+  margin: 0 0 40px;
 }
 
 .topic__title {
-  font-size: 2em;
+  margin: 0 0 10px;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 .topic__content {
-  padding: 0.75em 0;
-  font-size: 1.2em;
 }
 
+/* Skills */
 .skills {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  padding: 0 10%;
 }
 
 @media screen and (max-width: 600px) {
@@ -104,70 +145,77 @@ header {
 
 .skills__column {
   flex-basis: 1;
-  padding-bottom: 15px;
+  margin-right: 40px;
 }
 
-.experience-item {
+.skills__column:last-child {
+  margin-right: 0;
+}
+
+.skills__title {
+  font-weight: bold;
+}
+
+/* Experience */
+.experience {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.experience-item__company {
-  width: 286px;
-  padding: 0 10px 20px 0;
+.experience__left {
+  width: 25%;
 }
 
-.experience-item__details {
-  max-width: 60%;
-  min-width: 380px;
-  padding-bottom: 20px;
+.experience__center {
+  width: 75%;
 }
 
-.dates {
-  font-size: 0.75em;
+/* Company */
+.company {
+  padding: 10px 0;
+}
+
+.company__name {
+  font-weight: bold;
+}
+
+.company__position {
+}
+
+.company__dates {
+  font-size: 13px;
   opacity: 0.8;
 }
 
-.clip {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 198px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+/* Project */
+.project {
+  margin: 0 0 20px;
+  padding: 10px;
+  background: #f0f2f4;
 }
 
-.with-marker {
-  position: relative;
-  padding-left: 20px;
+.project__title {
+  font-weight: bold;
 }
 
-.with-marker::before {
-  content: '\2022 ';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.project-item {
-  background: #eeffee;
-  margin-bottom: 18px;
-}
-
-.project-item__piece {
-  padding: 5px 0;
-}
-
-.project-item__piece-title {
-  padding: 0 0 1px;
-  font-size: 0.8em;
+.project__subtitle {
+  margin: 0;
+  font-size: 12px;
   font-style: italic;
 }
 
-.project-item__piece-title_main {
-  font-style: normal;
-  font-weight: bolder;
-  font-size: 1em;
+.project__title + .project__subtitle {
+  margin-top: 10px;
+}
+
+.project__text {
+  margin: 0 0 10px;
+}
+
+.project__text:last-child {
+  margin-bottom: 0;
+}
+
+/* Additional */
+.additional {
 }
