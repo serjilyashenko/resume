@@ -7,8 +7,10 @@ li {
 }
 
 body {
-  font-family: Arial, sans-serif;
-  font-size: 1em;
+  /* font-family: Arial, sans-serif; */
+  /* font-family: Helvetica, Sans-Serif; */
+  font-family: Garmond, Sans-Serif;
+  font-size: 14px;
   padding-bottom: 60px;
 }
 
@@ -116,7 +118,7 @@ header {
   padding: 0 10px 20px 0;
 }
 
-.experience-item__responsibilities {
+.experience-item__details {
   max-width: 60%;
   min-width: 380px;
   padding-bottom: 20px;
@@ -147,4 +149,25 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.project-item {
+  background: #eeffee;
+  margin-bottom: 18px;
+}
+
+.project-item__piece {
+  padding: 5px 0;
+}
+
+.project-item__piece-title {
+  padding: 0 0 1px;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.project-item__piece-title_main {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1em;
 }
