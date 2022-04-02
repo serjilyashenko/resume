@@ -102,6 +102,7 @@ ul {
 }
 
 .owner__contacts {
+  font-style: normal;
   margin: 20px 0 0;
 }
 
@@ -126,6 +127,7 @@ ul {
 .topic__title {
   margin: 0 0 10px;
   font-size: 24px;
+  font-weight: normal;
   text-transform: uppercase;
   color: #296794;
 }
@@ -248,6 +250,7 @@ ul {
 }
 
 .project__title {
+  font-size: inherit;
   font-weight: bold;
 }
 
