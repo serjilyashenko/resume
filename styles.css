@@ -290,8 +290,8 @@ ul {
 
 /* Download */
 .download {
-  text-align: center;
-  padding: 20px 20px 0;
+  text-align: left;
+  padding: 20px 20px 0 0;
 }
 
 .download__btn {
