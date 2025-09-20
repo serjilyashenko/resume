@@ -75,6 +75,9 @@ ul {
 
 .header__photo {
   width: 200px;
+  border-radius: 4px;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .header__photo img {
@@ -235,6 +238,7 @@ ul {
   margin: 0 0 20px;
   padding: 10px;
   background: #f0f2f4;
+  border-radius: 4px;
 }
 
 .project ul li {
