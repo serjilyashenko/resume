@@ -236,13 +236,14 @@ ul {
 /* Project */
 .project {
   margin: 0 0 20px;
-  padding: 10px;
+  padding: 16px;
   background: #f0f2f4;
   border-radius: 4px;
 }
 
 .project ul li {
-  padding-left: 15px;
+  padding-left: 16px;
+  margin-bottom: 4px;
   position: relative;
 }
 
@@ -265,11 +266,11 @@ ul {
 }
 
 .project__title + .project__subtitle {
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 .project__text {
-  margin: 0 0 10px;
+  margin: 0 0 16px;
 }
 
 .project__text:last-child {
